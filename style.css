@@ -1,0 +1,91 @@
+*{
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    color: gray;
+
+}
+
+.section{
+    max-width: 768px;
+    margin: 0 auto;
+
+}
+
+.main-container{
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+.titulo-principal{
+
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px -1px 0px rgb(0, 0, 0); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-1{
+    width: 48%;
+    /* margin: 20px 100px 30px auto; */
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    margin-right: auto;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 10px 10px 10px 0px rgba(128, 128, 128, 0.281);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+.card-2{
+    width: 48%;
+    /* margin: 20px 20px 20px auto; */
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    margin-left: auto;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 10px 10px 10px 0px rgba(128, 128, 128, 0.315);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+.lista-li{
+    margin: 5px 0px 5px 0px;
+}
+
+button{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    cursor: pointer;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 400;
+
+
+}
+
+#right{
+background-color: white;
+border-color: #0dad68;
+color: #0dad68;
+}
+
+#left{
+    background-color: rgb(36, 32, 32);
+    border-color: #000000;
+    color: white;
+
+}
